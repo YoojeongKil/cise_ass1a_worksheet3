@@ -16,4 +16,4 @@ jobs:
           heroku_app_name: "peaceful-shelf-14304" #Must be unique in Heroku
           heroku_email: "fwh2856@autuni.ac.nz"
           appdir: "cise_ass1a_worksheet3" # <- This will point to the api folder in your project
-          procfile: "web:node cise_ass1a_worksheet3/app.js"
+          procfile: "web:node app.js"
