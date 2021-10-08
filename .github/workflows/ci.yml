@@ -25,10 +25,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npm install --prefix frontend
+      run: npm install --prefix my-app
 
     - name: Run the tests
-      run: npm test --prefix frontend
+      run: npm test --prefix my-app
 
     - name: Build
-      run: npm run build --prefix frontend
+      run: npm run build --prefix my-app
